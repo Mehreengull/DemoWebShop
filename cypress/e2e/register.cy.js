@@ -14,10 +14,10 @@ describe("template spec", () => {
   it("passes", () => {
     cy.visit("register/");
 
-    // loginPage.verifyPageHeading();
-    //loginPage.registerNewUser();
-    //productPage.completePurchase();
-    searchPage.searchUnavailableItem();
-    searchPage.searchAvailableItem();
+    loginPage.verifyPageHeading();
+    loginPage.registerNewUser();
+    productPage.completePurchase();
+    //searchPage.searchUnavailableItem();
+    //searchPage.searchAvailableItem();
   });
 });
