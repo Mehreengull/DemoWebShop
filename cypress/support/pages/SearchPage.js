@@ -10,9 +10,9 @@ class SearchPage {
     );
   }
 
-  searchAvailableItem() {
-    cy.get("#small-searchterms").type("gift");
-  }
+  //   searchAvailableItem() {
+  //     cy.get("#small-searchterms").type("gift");
+  //   }
 }
 
 export default SearchPage;
