@@ -5,9 +5,13 @@ class SearchPage {
     const item = faker.commerce.product();
     cy.get("#small-searchterms").type(item);
     cy.get("form > .button-1").click();
-    cy.get(".result").contains(
-      "No products were found that matched your criteria."
-    );
+    if (
+      cy
+        .get(".result")
+        .contains("No products were found that matched your criteria.")
+    ) {
+      cy.log("True");
+    }
   }
 
   //   searchAvailableItem() {
