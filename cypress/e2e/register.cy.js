@@ -18,6 +18,5 @@ describe("template spec", () => {
     loginPage.registerNewUser();
     productPage.completePurchase();
     searchPage.searchUnavailableItem();
-    //searchPage.searchAvailableItem();
   });
 });

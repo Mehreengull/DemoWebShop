@@ -7,7 +7,7 @@ class SearchPage {
     cy.get("form > .button-1").click();
     if (
       cy
-        .get(".result")
+        .get("result")
         .contains("No products were found that matched your criteria.")
     ) {
       cy.log("True");
