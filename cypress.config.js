@@ -11,6 +11,5 @@ module.exports = defineConfig({
       // implement node event listeners here
       require("cypress-mochawesome-reporter/plugin")(on);
     },
-    experimentalStudio: true,
   },
 });
